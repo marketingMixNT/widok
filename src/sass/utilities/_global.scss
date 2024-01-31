@@ -28,14 +28,7 @@ strong{
     background-color: white;
 }
 
-.desktop-nav-container,
-.attractions-container,
-.cta-container,
-.testimonial-container,
-.attractions--second-container,
-.testimonial-container {
-    background-color: white;
-}
+
 
 .tourmaster-price-wrap.tourmaster-with-bg {
     background-color: colors.$main-400 !important;
@@ -115,3 +108,38 @@ a:hover {
     cursor: pointer;
     border:none
 }
+
+
+
+
+//NOWE WIDOK
+
+.text-light{
+    color:colors.$font-light !important
+
+}
+
+.text-dark{
+    color:colors.$font-dark !important
+}
+
+.topbar, .nav-mobile{
+    background-color: colors.$secondary-400 !important;
+    border-bottom-color:colors.$secondary-400 !important
+    }
+
+    .hamburger:after, .hamburger:before, .hamburger span{
+        background-color: colors.$main-800 !important;
+    }
+
+    .desktop-nav-container,
+    .attractions-container,
+    .cta-container,
+    .testimonial-container,
+    .attractions--second-container,
+    .testimonial-container {
+        background-color: colors.$main-400 !important;
+        
+    }
+
+   
