@@ -114,6 +114,8 @@ a:hover {
 
 //NOWE WIDOK
 
+
+
 .text-light{
     color:colors.$font-light !important
 
@@ -131,14 +133,14 @@ a:hover {
 }
 
 .topbar, .nav-mobile{
-    background-color: colors.$secondary-400 !important;
-    border-bottom-color:colors.$secondary-400 !important
+    background-color: colors.$main-400 !important;
+    border-bottom-color:colors.$main-400 !important
     }
 
     
 
     .hamburger:after, .hamburger:before, .hamburger span{
-        background-color: colors.$main-800 !important;
+        background-color: white !important;
     }
 
     .desktop-nav-container,
@@ -147,10 +149,17 @@ a:hover {
     .testimonial-container,
     .attractions--second-container,
     .testimonial-container {
-        background-color: colors.$main-400 !important;
+        background-color: colors.$secondary-400 !important;
         
     }
-
+.nav-link{
+    color:colors.$main-200
+}
    .nav-link:hover{
-    color:colors.$secondary-200 !important;
+    color:black !important
+   }
+
+
+   .hotale-navigation-slide-bar.hotale-navigation-slide-bar-style-2.hotale-left{
+    border-color:colors.$main-400 !important
    }
