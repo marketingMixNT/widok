@@ -128,6 +128,8 @@ a:hover {
     border-bottom-color:colors.$secondary-400 !important
     }
 
+    
+
     .hamburger:after, .hamburger:before, .hamburger span{
         background-color: colors.$main-800 !important;
     }
@@ -142,4 +144,6 @@ a:hover {
         
     }
 
-   
+   .nav-link:hover{
+    color:colors.$secondary-200 !important;
+   }
