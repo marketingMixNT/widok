@@ -1,0 +1,109 @@
+@use "../utilities/colors";
+@use "../utilities/mixins";
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: colors.$main-400;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 2em;
+        max-width: 900px;
+
+        @include mixins.small-devices {
+            flex-direction: row;
+            gap:1em;
+            justify-content: space-between;
+        }  
+          }
+    &__logo-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    &__logo{
+        img{
+            width: 200px;
+        }
+    }
+    &__columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:1em;
+        width: 100%;
+        margin-top: 1em;
+        @include mixins.xs-devices {
+            flex-direction: row;
+            gap:1em;
+        }  
+        @include mixins.small-devices {
+            align-items: flex-start;
+            width: 50%;
+         }  
+         @include mixins.large-devices {
+            // width: 40%;
+         }  
+        &
+        &-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            @include mixins.xs-devices {
+                width: 50%;
+            }  
+            & h6{
+                margin-bottom: .3em;
+                color:white
+            }
+            & span{
+                color: white;
+            }
+            & a{
+                color:colors.$font-light;
+                &:hover{
+color:rgb(160, 159, 159) !important
+                }
+            }
+        }
+    }
+    &__author{
+        margin-top: 1em;
+        padding: .5em;
+        border-top: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 60%;
+        margin:0 auto;
+        max-width: 900px;
+        text-align: center;
+
+      & a {
+        color:white;
+        cursor:pointer;
+        transition: .3s;
+
+        &:hover{
+            font-weight: bold;
+            color:white !important
+
+        }
+      }
+    }
+
+}

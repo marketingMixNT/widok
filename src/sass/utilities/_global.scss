@@ -1,0 +1,117 @@
+@use "./utilities/colors";
+@use "./utilities/mixins";
+
+body {
+    .gdlr-core-divider-line.gdlr-core-skin-divider {
+        border-color: colors.$main-400;
+        border-width: 3px;
+    }
+}
+
+strong{
+    color:black
+}
+
+.hotale-footer-wrapper {
+    background-color: colors.$main-400 !important;
+}
+
+.hotale-body-wrapper {
+    background-color: colors.$bgc !important;
+}
+
+.contact-section {
+    background-color: colors.$main-400;
+}
+
+.rooms-container {
+    background-color: white;
+}
+
+.desktop-nav-container,
+.attractions-container,
+.cta-container,
+.testimonial-container,
+.attractions--second-container,
+.testimonial-container {
+    background-color: white;
+}
+
+.tourmaster-price-wrap.tourmaster-with-bg {
+    background-color: colors.$main-400 !important;
+}
+
+.hotale-body-wrapper.hotale-with-frame,
+body.hotale-full .hotale-fixed-footer {
+    margin: 0;
+}
+
+.btn {
+    &--primary {
+        background-color: colors.$main-400 !important;
+        border-radius: 0px !important;
+        &:hover {
+            background-color: colors.$main-200 !important;
+            color: colors.$font-light !important;
+        }
+    }
+    &--secondary {
+        border: 1px solid colors.$main-400 !important;
+        color: colors.$main-400 !important;
+    }
+    &--third {
+        border: 1px solid white !important;
+        color: white !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .attraction-card-second-right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .gallery-first-img {
+        display: none;
+    }
+}
+
+a:hover {
+    color: colors.$main-200 !important;
+}
+
+.info-card {
+    &:first-child {
+        margin: 0; 
+    }
+    @include mixins.medium-devices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3em 0;
+        
+    }
+   
+    &--reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.other-rooms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include mixins.medium-devices{
+        flex-direction: row;
+    }
+}
+
+.white{
+    color:white !important
+}
+
+
+.btn--primary{
+    cursor: pointer;
+    border:none
+}

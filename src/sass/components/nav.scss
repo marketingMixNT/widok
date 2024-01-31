@@ -1,0 +1,54 @@
+@use "../utilities/colors";
+
+.change-bgc {
+    background-color: colors.$main-400 !important;
+}
+
+.nav__mobile {
+    background-color: colors.$main-400;
+}
+
+.hamburger span,
+.hamburger::after,
+.hamburger::before {
+    background-color: white;
+}
+
+.mmenu-custom-close::after {
+    color: white;
+}
+
+.hotale-mm-menu-wrap.hotale-navigation-font {
+    background-color: colors.$main-400 !important;
+    & ul li a {
+        color: white;
+    }
+}
+
+.m-menu li a {
+    color: white !important;
+}
+
+ul.mm-listview li {
+    border-color: white;
+}
+
+.mm-arrow:after,
+.mm-next:after,
+.mm-prev:before {
+    border-color: white;
+}
+.mm-navbar .mm-title,
+.mm-navbar .mm-btn,
+ul.mm-listview li > a,
+ul.mm-listview li > span {
+    color: white;
+}
+
+// DESKTOP
+
+#menu-main-navigation-1 li a {
+    color: black;
+}
+
+

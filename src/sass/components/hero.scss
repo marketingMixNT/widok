@@ -1,0 +1,26 @@
+@use '../utilities/colors';
+@use'../utilities/mixins';
+
+.hero{
+    &__container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:80vh !important;
+    }
+    &__background{
+        @include mixins.large-devices{
+            background-position: center;
+        }
+    }
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: .3;
+}

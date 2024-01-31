@@ -1,0 +1,43 @@
+@use '../utilities/mixins';
+
+.gallery {
+	&__img {
+		object-fit: cover;
+		@include mixins.medium-devices {
+			max-height: 200px;
+			min-height: 200px;
+		}
+		@include mixins.xl-devices {
+			max-height: 300px;
+			min-height: 300px;
+		}
+		@include mixins.xxl-devices {
+			max-height: 400px;
+			min-height: 400px;
+		}
+	}
+}
+
+.items-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    flex-wrap: wrap;
+	align-items: center;
+	margin-top: 50px;
+	gap: 1em;
+    padding: 0 1em;
+
+	@include mixins.small-devices {
+		flex-direction: row;
+	}
+	& button {
+		width: 70%;
+		@include mixins.small-devices {
+			width: auto;
+		}
+	}
+}
+.menu-active{
+    background-color: rgba(0, 0, 0, 0.500) !important;
+} 
