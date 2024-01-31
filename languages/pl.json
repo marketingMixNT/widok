@@ -14,10 +14,11 @@
 
 
 	"nav-link--1": "O nas",
-	"nav-link--2": "Pokoje",
-	"room-1": "Rodzinny Pokój Deluxe z Balkonem",
-	"room-2": "Rodzinny Pokój Premiere z Balkonem",
-	"room-3": "Dwuosobowy Pokój Deluxe z Balkonem",
+	"nav-link--2": "Apartamenty",
+	"room-1": "Gubałówka",
+	"room-2": "Kasprowy",
+	"room-3": "Giewont",
+	"room-4": "Krywań",
 	"nav-link--3": "Atrakcje",
 	"nav-link--4": "Galeria",
 	"nav-link--5": "Kontakt",
@@ -27,6 +28,12 @@
 	"subtitle-1": "Twoje miejsce na mapie ",
 	"subtitle-2": "Zakopanego",
 
+"apartments":"Apartamenty",
+"apartments-desc":"Odkryj wyjątkowe miejsce, idealne dla poszukiwaczy górskich przygód i tych, którzy pragną odpocząć w komfortowych warunkach z zapierającym widokiem na Tatry i Zakopane. Odkryj wyjątkowe miejsce na mapie Zakopanego – nasze 4 dwupoziomowe apartamenty, idealne dla tych, którzy pragną połączyć relaks w górach z domową atmosferą. Każdy apartament posiada aż dwie łazienki, by zapewnić wyjątkową wygodę i prywatność podczas Twojego pobytu.",
+"apartment-one":"Apartament Gubałówka",
+"apartment-two":"Apartament Kasprowy",
+"apartment-three":"Apartament Giewont",
+"apartment-four":"Apartament Krywań",
 
 
 

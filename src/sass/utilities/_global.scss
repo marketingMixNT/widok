@@ -119,6 +119,13 @@ a:hover {
 
 }
 
+.text-action{
+    color:colors.$font-action !important
+}
+.border-action{
+    border-color:colors.$font-action !important
+}
+
 .text-dark{
     color:colors.$font-dark !important
 }
