@@ -41,10 +41,11 @@ body.hotale-full .hotale-fixed-footer {
 
 .btn {
     &--primary {
-        background-color: colors.$main-400 !important;
+        background-color:  colors.$secondary-400 !important;
         border-radius: 0px !important;
+        color: colors.$font-light !important;
         &:hover {
-            background-color: colors.$main-200 !important;
+            background-color: colors.$secondary-200 !important;
             color: colors.$font-light !important;
         }
     }
@@ -114,8 +115,6 @@ a:hover {
 
 //NOWE WIDOK
 
-
-
 .text-light{
     color:colors.$font-light !important
 
@@ -127,24 +126,26 @@ a:hover {
 .border-action{
     border-color:colors.$font-action !important
 }
+.bg-action{
+    background-color:colors.$font-action !important
+}
 
 .text-dark{
     color:colors.$font-dark !important
 }
+
 
 .topbar, .nav-mobile{
     background-color: colors.$main-400 !important;
     border-bottom-color:colors.$main-400 !important
     }
 
-    
-
     .hamburger:after, .hamburger:before, .hamburger span{
         background-color: white !important;
     }
 
     .desktop-nav-container,
-    .attractions-container,
+   
     .cta-container,
     .testimonial-container,
     .attractions--second-container,
@@ -160,6 +161,10 @@ a:hover {
    }
 
 
+
+   //MAIN PAGE SECTIONS
    .hotale-navigation-slide-bar.hotale-navigation-slide-bar-style-2.hotale-left{
     border-color:colors.$main-400 !important
    }
+
+
