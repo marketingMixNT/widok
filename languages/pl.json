@@ -114,14 +114,65 @@
 
 	"attractions": "Atrakcje",
 	"attractions-title": "Poznaj najciekawsze okoliczne atrakcje",
-	"krokiew-1": "Wielka Krokiew to jedna z najbardziej charakterystycznych atrakcji w Zakopanem, znana zarówno miłośnikom sportów zimowych, jak i turystom z całego świata. Jest to skocznia narciarska, która zyskała sławę nie tylko ze względu na swoją architekturę, ale także jako miejsce prestiżowych zawodów i widowiskowych skoków narciarskich.",
-	"krokiew-2": "Skocznia została wybudowana w 1925 roku i od tamtej pory wielokrotnie modernizowana, by sprostać najnowszym standardom i wymaganiom. Jej imponująca konstrukcja oraz widok na otaczające Tatry sprawiają, że stanowi ona niezapomniany element krajobrazu Zakopanego.",
-	"krokiew-3": "Wielka Krokiew ma punkt konstrukcyjny K-120, co oznacza, że odległość między punktem startowym a punktem lądowania wynosi 120 metrów. Skocznia jest także wyposażona w najnowocześniejsze udogodnienia, zapewniające bezpieczeństwo i komfort dla skoczków oraz widzów.",
-	"kasprowy-1": "Kasprowy Wierch to jeden z najwyższych szczytów Tatr Zachodnich. Znajduje się na granicy polsko-słowackiej i oferuje imponujące widoki na obie strony. Szczyt jest dostępny zarówno pieszo, korzystając z szlaków górskich, jak i za pomocą kolei linowej z Kuźnic.",
-	"kasprowy-2": "Z wysokości 1 987 metrów n.p.m. Kasprowy Wierch zapewnia panoramiczną perspektywę na Tatry Zachodnie i Wysokie. Widoki obejmują także słowackie Tatry i Niskie Tatry. Kolej linowa na Kasprowy Wierch jest jedną z najstarszych w Polsce i cieszy się dużą popularnością.",
-	"kasprowy-3": "Szczyt jest atrakcyjny nie tylko dla turystów, ale także dla miłośników sportów zimowych. Na stokach Kasprowego Wierchu znajdują się trasy narciarskie, przyciągając narciarzy i snowboardzistów. Szlaki turystyczne wiodące na Kasprowy Wierch są popularne wśród wędrowców, oferując różnorodne trasy, zarówno dla doświadczonych taterników, jak i osób preferujących łagodniejsze podejścia.",
-	"kuznice-1": "Kuźnice, a dawniej Hamry, to miejsce gdzie do 1878 r. działały huty żelaza i kuźnie. Rudę żelazną wydobywano głównie pod Kopą Magury w Dolinie Jaworzynki. Właściciele Kuźnic, rodzina Homolacsów, wybudowali tutaj dwór, w którym podejmowali naukowców, artystów, polityków. Obecnie Kuźnice znane są przede wszystkim z dolnej stacji kolejki na Kasprowy Wierch. ",
-	"kuznice-2": "Oprócz stacji znajduje się tu m.in. zajazd, restauracja, sklep spożywczy i pamiątkowy oraz leśniczówka TPN. W latach 2006-2008 przeprowadzono renowację dworu. Spichlerz adaptowano na salę wystaw czasowych, w wozowni urządzono muzeum historii Kuźnic, przeprowadzono odbudowę fundamentów dworu Homolacsów, renowację dworków oficjalistów z XIX w., odrestaurowano parkowe ciągi komunikacyjne i alejki wraz z oświetleniem oraz fontannę.",
+	
+	"attractions-1--title":"Kolejka Linowa na Gubałówkę",
+	"attractions-1--desc":"Jedna z głównych atrakcji Zakopanego, oferująca niezapomniane widoki na Tatry. Podróż kolejką to doskonała okazja, aby podziwiać panoramę gór z wygodnych wagoników. Po dotarciu na szczyt Gubałówki można cieszyć się przepięknym widokiem na Zakopane i okoliczne szczyty.",
+
+	"attractions-2--title":"Krupówki",
+	"attractions-2--desc":"Najsłynniejsza ulica w Zakopanem, pełna regionalnych sklepów, restauracji i kawiarni. Krupówki to serce kultury góralskiej, gdzie można kupić tradycyjne wyroby, skosztować lokalnych specjałów oraz poczuć wyjątkową atmosferę tego górskiego miasta.",
+
+	"attractions-3--title":"Dolina Chochołowska",
+	"attractions-3--desc":"Najdłuższa i jedna z najpiękniejszych dolin w Tatrach. Idealna na spacery i wycieczki rowerowe, szczególnie wiosną, kiedy kwitną krokusy. Dolina Chochołowska oferuje malownicze krajobrazy i jest doskonałym miejscem dla miłośników natury.",
+
+	"attractions-4--title":"Wielka Krokiew",
+	"attractions-4--desc":"Największa skocznia narciarska w Polsce, regularnie goszcząca międzynarodowe zawody w skokach narciarskich. Można zwiedzać skocznię, a dla odważnych dostępna jest opcja zjazdu na tyrolce, co dostarcza dodatkowych, mocnych wrażeń emocji",
+
+	"attractions-5--title":"Aqua Park Zakopane",
+	"attractions-5--desc":"Idealne miejsce dla rodzin z dziećmi i wszystkich, którzy chcą zrelaksować się po dniu pełnym atrakcji. Aqua Park oferuje baseny wewnętrzne i zewnętrzne, zjeżdżalnie wodne, jacuzzi oraz strefę spa & wellness.",
+
+	"attractions-6--title":"Muzeum Tatrzańskie",
+	"attractions-6--desc":"Miejsce, gdzie można zgłębić wiedzę na temat kultury i historii Podhala, Tatr i Zakopanego. Muzeum prezentuje bogate zbiory związane z etnografią, przyrodą oraz sztuką regionu",
+
+	"attractions-7--title":"Morskie Oko",
+	"attractions-7--desc":"Największe i jedno z najpiękniejszych jezior tatrzańskich, otoczone majestatycznymi szczytami. Dojście do Morskiego Oka to wspaniała wycieczka piesza, oferująca niezapomniane widoki. Jezioro jest ikoną Tatr i obowiązkowym punktem dla każdego turysty.",
+
+	"attractions-8--title":"Kasprowy Wierch",
+	"attractions-8--desc":"Popularny szczyt w Tatrach, dostępny zarówno pieszo, jak i kolejką linową. Z Kasprowego Wierchu rozpościera się spektakularna panorama Tatr. To również znane miejsce dla narciarzy, z dobrze przygotowanymi trasami zjazdowymi.",
+
+	"attractions-9--title":"Dolina Pięciu Stawów Polskich",
+	"attractions-9--desc":"Urokliwa dolina w Tatrach Wysokich, znana z pięknych, położonych w niej stawów górskich. Jest to doskonałe miejsce na dłuższe wędrówki i podziwianie niepowtarzalnych krajobrazów górskich.",
+
+	"attractions-10--title":"Willa Koliba – Muzeum Stylu Zakopiańskiego",
+	"attractions-10--desc":"Pierwszy dom zbudowany w stylu zakopiańskim, zaprojektowany przez Stanisława Witkiewicza. Obecnie funkcjonuje jako muzeum, prezentujące tradycyjną architekturę i rzemiosło regionu.",
+
+	"attractions-11--title":"Tatrzański Park Narodowy",
+	"attractions-11--desc":"Obszar chroniony, oferujący szereg ścieżek dydaktycznych i turystycznych, przez które można odkrywać bogactwo flory i fauny Tatr. Park jest idealnym miejscem do obserwowania przyrody i cieszenia się czystym górskim powietrzem.",
+
+	"attractions-12--title":"Sanktuarium Matki Bożej Fatimskiej na Krzeptówkach",
+	"attractions-12--desc":"To piękne sanktuarium, zbudowane jako wotum dziękczynne za ocalenie Jana Pawła II po zamachu w 1981 roku. Miejsce to jest ważnym punktem na duchowej mapie Zakopanego, odwiedzanym zarówno przez pielgrzymów, jak i turystów szukających chwili spokoju i refleksji.Każda z tych atrakcji dodatkowo wzbogaca ofertę turystyczną Zakopanego i okolic, oferując niezliczone możliwości dla miłośników gór, natury, kultury oraz historii.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	"gallery-title": "Galeria",
 	"gallery-item-1": "Apartamenty",
