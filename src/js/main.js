@@ -90,7 +90,7 @@ const filterInfo = document.querySelector('.info');
 
 if (filterItem && filterImages.length > 0) {
     window.addEventListener('load', () => {
-        const initialFilter = 'rodzinny-deluxe';
+        const initialFilter = 'apartamenty';
 
         filterImages.forEach((image) => {
             let filterImageName = image.getAttribute('data-name');
