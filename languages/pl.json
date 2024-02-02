@@ -1,17 +1,16 @@
 {
 	"lang": "pl",
 
-	
 	"index-title": "Apartamenty Widok Zakopane - Luksusowy Wypoczynek z Widokiem na Tatry",
-	"index-about-title": "O Nas – Widok w Zakopanem | Luksusowe Apartamenty z Duszą",
-	"index-rooms-title": "Nasze Pokoje | Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
-	"index-gallery-title": "Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
-	"index-room1-title": "Pokój Rodzinny Typu Deluxe z Balkonem | Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
-	"index-room2-title": "Pokój Rodzinny Typu Premiere z Balkonem | Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
-	"index-room3-title": "Dwuosobowy Pokój Typu Deluxe z Balkonem | Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
-	"index-attractions-title": "Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
-	"index-contact-title": "Kontakt – Znajdź Nas w Zakopanem | Apartamenty Widok",
+	"index-about-title": "O Nas – Luksusowe Apartamenty z Duszą | Apartementy Widok Zakopane",
+	"index-rooms-title": "Apartamenty – Komfortowy Wypoczynek w Zakopanem | Apartamenty Widok Zakopane",
+	"index-gallery-title": "Galeria – Odkryj Urok Apartamentów Widok Zakopane",
 
+	"index-apartment1-title": "Gubałówka | Apartamenty Widok Zakopane",
+	"index-apartment2-title": "Kasprowy | Apartamenty Widok Zakopane",
+	"index-apartment3-title": "Giewont | Apartamenty Widok Zakopane",
+	"index-attractions-title": "Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
+	"index-contact-title": "Kontakt – Skontaktuj się z nami | Apartamenty Widok Zakopane",
 
 	"nav-link--1": "O nas",
 	"nav-link--2": "Apartamenty",
@@ -23,39 +22,33 @@
 	"nav-link--4": "Galeria",
 	"nav-link--5": "Kontakt",
 
-
 	"title": "Apartamenty Widok",
 	"subtitle-1": "Twoje miejsce na mapie ",
 	"subtitle-2": "Zakopanego",
 
-"apartments":"Apartamenty",
-"apartments-desc":"Odkryj wyjątkowe miejsce, idealne dla poszukiwaczy górskich przygód i tych, którzy pragną odpocząć w komfortowych warunkach z zapierającym widokiem na Tatry i Zakopane. Odkryj wyjątkowe miejsce na mapie Zakopanego – nasze 4 dwupoziomowe apartamenty, idealne dla tych, którzy pragną połączyć relaks w górach z domową atmosferą. Każdy apartament posiada aż dwie łazienki, by zapewnić wyjątkową wygodę i prywatność podczas Twojego pobytu.",
-"apartment-one":"Apartament Gubałówka",
-"apartment-two":"Apartament Kasprowy",
-"apartment-three":"Apartament Giewont",
-"apartment-four":"Apartament Krywań",
-
+	"apartments": "Apartamenty",
+	"apartment": "Apartament",
+	"apartments-desc": "Odkryj wyjątkowe miejsce, idealne dla poszukiwaczy górskich przygód i tych, którzy pragną odpocząć w komfortowych warunkach z zapierającym widokiem na Tatry i Zakopane. Odkryj wyjątkowe miejsce na mapie Zakopanego – nasze 4 dwupoziomowe apartamenty, idealne dla tych, którzy pragną połączyć relaks w górach z domową atmosferą. Większość apartamentów posiada aż 2 łazienki, by zapewnić wyjątkową wygodę i prywatność podczas Twojego pobytu.",
+	"apartment-one": "Apartament Gubałówka",
+	"apartment-two": "Apartament Kasprowy",
+	"apartment-three": "Apartament Giewont",
+	"apartment-four": "Apartament Krywań",
 
 	"person": "os.",
 	"watch": "zobacz",
 
-
 	"icon-1": "Darmowe Wi-Fi",
 	"icon-2": "Aneks kuchenny",
 	"icon-3": "Telewizor",
-	"icon-4": "Darmowy parking",
-	"icon-5": "2 Łazienki",
+	"icon-4": "Prywatny parking",
+	"icon-5": "Nowoczesne Łazienki",
 
 	"index-about--title": "O nas",
 	"index-about": "W sercu górskiego krajobrazu, na malowniczej Gubałówce, znajdziesz nasze apartamenty. Oferujemy nie tylko niezapomniane widoki na tatrzańskie pejzaże, ale także komfort i wygodę, które czynią wypoczynek wyjątkowym. Bliskość Zakopanego zapewnia łatwy dostęp do jego bogatej oferty kulturalnej i rozrywkowej, co sprawia, że nasze apartamenty są idealnym wyborem dla każdego, kto pragnie połączyć relaks z aktywnym odkrywaniem lokalnych atrakcji.",
 	"find-out-more": "Dowiedz się więcej",
 
-	"index-hero--title": "Twój wymarzony pobyt w górach – Apartamenty Widok w Zakopanym",
+	"index-hero--title": "Zarezerwuj już teraz i przeżyj niezapomniane chwile w sercu Tatr",
 	"reservation": "zarezerwuj",
-
-
-
-
 
 	"index-attractions--title": "Atrakcje",
 	"attraction-1--title": "Kolejka Linowa na Gubałówkę",
@@ -73,7 +66,6 @@
 	"contact": "Kontakt",
 	"created": "Wykonanie ",
 
-
 	"about-title": "O nas",
 	"about-title-2": "Zakopane z Naszego Widoku",
 	"about-subtitle-1": "Odkryj luksus pośród górskich szczytów i domową atmosferę, która oczaruje Cię na każdym kroku",
@@ -84,15 +76,53 @@
 
 	"about-p-3": "Pragnąc zapewnić Ci maksymalny komfort, każdy z naszych apartamentów został zaprojektowany z myślą o przestrzeni i prywatności. Dwupoziomowe wnętrza i dwie łazienki to gwarancja wygody i niezależności, której szukasz podczas wakacji.",
 
-
 	"about-p-4": "Zapraszamy do apartamentów Widok w Zakopanem, gdzie każdy dzień to nowa możliwość odkrycia górskich szlaków, lokalnej kultury oraz atrakcji, które tętnią życiem przez cały rok. Odkryj z nami Zakopane w nowym stylu.",
 
+	"__COMMENT__": "APARTAMENT PAGE",
+	"apartment-1": "Apartament Gubałówka",
+	"apartment-1--size": "50m²",
+	"apartment-1--balcony": "balkon na zachód",
+	"apartment-1--bathrooms": "2 łazienki",
+	"apartment-1--persons": "max 4 osoby",
+
+
+	"apartment-2": "Apartament Kasprowy",
+	"apartment-2--size": "45m²",
+	"apartment-2--balcony": "balkon na zachód, widok na Tatry",
+	"apartment-2--bathrooms": "2 łazienki",
+
+	"apartment-3": "Apartament Giewont",
+	"apartment-3--size": "50m²",
+	"apartment-3--balcony": "balkon na południe, widok na Tatry",
+	"apartment-3--bathrooms": "duża i wygodna łazienka",
+
+	"apartment-4": "Apartament Krywań",
+	"apartment-4--size": "65m²",
+	"apartment-4--balcony": "balkon na wchód, widok na Tatry",
+	"apartment-4--bathrooms": "2 łazienki",
+
+"surface":"powierzchnia",
+
+"___COMMENT__": "GUBAŁÓWKA APARTMENT PAGE",
+"amenities-title":"Pełne wyposażenie dla Twojego komfortu",
+"amenities-p":"Każdy z naszych apartamentów został zaprojektowany z myślą o wygodzie i niezależności. Do Twojej dyspozycji oddajemy:",
+
+"amenities-li-1-head":"Aneks Kuchenny - ",
+"amenities-li-1-desc":"w pełni wyposażony, z lodówką, zmywarką, kuchenką mikrofalową, płytą indukcyjną i ekspresem do kawy, abyś mógł przygotować ulubione posiłki i pyszną kawę bez wychodzenia z apartamentu.",
+"amenities-li-2-head":"Przestronny Salon - ",
+"amenities-li-2-desc":"na parterze znajduje się wygodna, rozkładana sofa (140x200 cm), idealna do relaksu po dniu pełnym wrażeń.",
+"amenities-li-3-head":"Sypialnia na Antresoli - ",
+"amenities-li-3-desc":"ustronna i przytulna, z dużym łóżkiem małżeńskim (180x200 cm), które można przekształcić w dwa pojedyncze łóżka – idealne rozwiązanie zarówno dla par, jak i przyjaciół podróżujących razem.",
+"amenities-li-4-head":"Łazienki - ",
+"amenities-li-4-desc":"apartament posiadaj dwie nowoczesne i funkcjonalne łazienki, wyposażone we wszystkie niezbędne udogodnienia (wygodny prysznic, ręcznikowiec, suszarka, umywalka ze stylowym meblem).",
+"amenities-li-4-desc_second":"apartament posiada nowoczesną i funkcjonalną łazienkę, wyposażoną we wszystkie niezbędne udogodnienia (wygodny prysznic, ręcznikowiec, suszarka, umywalka ze stylowym meblem).",
+"amenities-li-5-head":"Rozrywka i Łączność - ",
+"amenities-li-5-desc":"w apartamencie znajduje się telewizor oraz dostęp do szybkiego internetu, dzięki czemu nie przegapisz ulubionych programów i będziesz na bieżąco z najważniejszymi wydarzeniami.",
+"amenities-li-6-head":"Prywatny Parking",
 
 
 
-	"rooms-title": "Pokoje",
-	"rooms-desc": "Wyposażony jest w dwuosobowe łóżko, rozkładaną sofę, szafę, biurko, tv, sejf i łazienkę z prysznicem.",
-	"rooms-desc-2": "Wyposażony jest w dwuosobowe łóżko, szafę, biurko, tv, sejf i łazienkę z prysznicem.",
+
 	"check": "zobacz",
 
 	"numberOfGuests": "Liczba gości",
@@ -108,71 +138,50 @@
 	"towels": "Ręczniki",
 	"flootCovering": "Wykładzina",
 	"cosmeticKit": "Zestaw Kosmetyków",
-	"coffeeAndTea": "Kawa i Herbata",
+	"coffeeAndTea": "Ekspress do Kawy",
 	"refrigerator": "Lodówka",
-	"otherRooms": "Pozostałe Pokoje",
+	"stove": "Płyta Indukcyjna",
+	"dishwasher": "Zmywarka",
+	"otherRooms": "Pozostałe Apartamenty",
 
 	"attractions": "Atrakcje",
 	"attractions-title": "Poznaj najciekawsze okoliczne atrakcje",
-	
-	"attractions-1--title":"Kolejka Linowa na Gubałówkę",
-	"attractions-1--desc":"Jedna z głównych atrakcji Zakopanego, oferująca niezapomniane widoki na Tatry. Podróż kolejką to doskonała okazja, aby podziwiać panoramę gór z wygodnych wagoników. Po dotarciu na szczyt Gubałówki można cieszyć się przepięknym widokiem na Zakopane i okoliczne szczyty.",
 
-	"attractions-2--title":"Krupówki",
-	"attractions-2--desc":"Najsłynniejsza ulica w Zakopanem, pełna regionalnych sklepów, restauracji i kawiarni. Krupówki to serce kultury góralskiej, gdzie można kupić tradycyjne wyroby, skosztować lokalnych specjałów oraz poczuć wyjątkową atmosferę tego górskiego miasta.",
+	"attractions-1--title": "Kolejka Linowa na Gubałówkę",
+	"attractions-1--desc": "Jedna z głównych atrakcji Zakopanego, oferująca niezapomniane widoki na Tatry. Podróż kolejką to doskonała okazja, aby podziwiać panoramę gór z wygodnych wagoników. Po dotarciu na szczyt Gubałówki można cieszyć się przepięknym widokiem na Zakopane i okoliczne szczyty.",
 
-	"attractions-3--title":"Dolina Chochołowska",
-	"attractions-3--desc":"Najdłuższa i jedna z najpiękniejszych dolin w Tatrach. Idealna na spacery i wycieczki rowerowe, szczególnie wiosną, kiedy kwitną krokusy. Dolina Chochołowska oferuje malownicze krajobrazy i jest doskonałym miejscem dla miłośników natury.",
+	"attractions-2--title": "Krupówki",
+	"attractions-2--desc": "Najsłynniejsza ulica w Zakopanem, pełna regionalnych sklepów, restauracji i kawiarni. Krupówki to serce kultury góralskiej, gdzie można kupić tradycyjne wyroby, skosztować lokalnych specjałów oraz poczuć wyjątkową atmosferę tego górskiego miasta.",
 
-	"attractions-4--title":"Wielka Krokiew",
-	"attractions-4--desc":"Największa skocznia narciarska w Polsce, regularnie goszcząca międzynarodowe zawody w skokach narciarskich. Można zwiedzać skocznię, a dla odważnych dostępna jest opcja zjazdu na tyrolce, co dostarcza dodatkowych, mocnych wrażeń emocji",
+	"attractions-3--title": "Dolina Chochołowska",
+	"attractions-3--desc": "Najdłuższa i jedna z najpiękniejszych dolin w Tatrach. Idealna na spacery i wycieczki rowerowe, szczególnie wiosną, kiedy kwitną krokusy. Dolina Chochołowska oferuje malownicze krajobrazy i jest doskonałym miejscem dla miłośników natury.",
 
-	"attractions-5--title":"Aqua Park Zakopane",
-	"attractions-5--desc":"Idealne miejsce dla rodzin z dziećmi i wszystkich, którzy chcą zrelaksować się po dniu pełnym atrakcji. Aqua Park oferuje baseny wewnętrzne i zewnętrzne, zjeżdżalnie wodne, jacuzzi oraz strefę spa & wellness.",
+	"attractions-4--title": "Wielka Krokiew",
+	"attractions-4--desc": "Największa skocznia narciarska w Polsce, regularnie goszcząca międzynarodowe zawody w skokach narciarskich. Można zwiedzać skocznię, a dla odważnych dostępna jest opcja zjazdu na tyrolce, co dostarcza dodatkowych, mocnych wrażeń emocji",
 
-	"attractions-6--title":"Muzeum Tatrzańskie",
-	"attractions-6--desc":"Miejsce, gdzie można zgłębić wiedzę na temat kultury i historii Podhala, Tatr i Zakopanego. Muzeum prezentuje bogate zbiory związane z etnografią, przyrodą oraz sztuką regionu",
+	"attractions-5--title": "Aqua Park Zakopane",
+	"attractions-5--desc": "Idealne miejsce dla rodzin z dziećmi i wszystkich, którzy chcą zrelaksować się po dniu pełnym atrakcji. Aqua Park oferuje baseny wewnętrzne i zewnętrzne, zjeżdżalnie wodne, jacuzzi oraz strefę spa & wellness.",
 
-	"attractions-7--title":"Morskie Oko",
-	"attractions-7--desc":"Największe i jedno z najpiękniejszych jezior tatrzańskich, otoczone majestatycznymi szczytami. Dojście do Morskiego Oka to wspaniała wycieczka piesza, oferująca niezapomniane widoki. Jezioro jest ikoną Tatr i obowiązkowym punktem dla każdego turysty.",
+	"attractions-6--title": "Muzeum Tatrzańskie",
+	"attractions-6--desc": "Miejsce, gdzie można zgłębić wiedzę na temat kultury i historii Podhala, Tatr i Zakopanego. Muzeum prezentuje bogate zbiory związane z etnografią, przyrodą oraz sztuką regionu",
 
-	"attractions-8--title":"Kasprowy Wierch",
-	"attractions-8--desc":"Popularny szczyt w Tatrach, dostępny zarówno pieszo, jak i kolejką linową. Z Kasprowego Wierchu rozpościera się spektakularna panorama Tatr. To również znane miejsce dla narciarzy, z dobrze przygotowanymi trasami zjazdowymi.",
+	"attractions-7--title": "Morskie Oko",
+	"attractions-7--desc": "Największe i jedno z najpiękniejszych jezior tatrzańskich, otoczone majestatycznymi szczytami. Dojście do Morskiego Oka to wspaniała wycieczka piesza, oferująca niezapomniane widoki. Jezioro jest ikoną Tatr i obowiązkowym punktem dla każdego turysty.",
 
-	"attractions-9--title":"Dolina Pięciu Stawów Polskich",
-	"attractions-9--desc":"Urokliwa dolina w Tatrach Wysokich, znana z pięknych, położonych w niej stawów górskich. Jest to doskonałe miejsce na dłuższe wędrówki i podziwianie niepowtarzalnych krajobrazów górskich.",
+	"attractions-8--title": "Kasprowy Wierch",
+	"attractions-8--desc": "Popularny szczyt w Tatrach, dostępny zarówno pieszo, jak i kolejką linową. Z Kasprowego Wierchu rozpościera się spektakularna panorama Tatr. To również znane miejsce dla narciarzy, z dobrze przygotowanymi trasami zjazdowymi.",
 
-	"attractions-10--title":"Willa Koliba – Muzeum Stylu Zakopiańskiego",
-	"attractions-10--desc":"Pierwszy dom zbudowany w stylu zakopiańskim, zaprojektowany przez Stanisława Witkiewicza. Obecnie funkcjonuje jako muzeum, prezentujące tradycyjną architekturę i rzemiosło regionu.",
+	"attractions-9--title": "Dolina Pięciu Stawów Polskich",
+	"attractions-9--desc": "Urokliwa dolina w Tatrach Wysokich, znana z pięknych, położonych w niej stawów górskich. Jest to doskonałe miejsce na dłuższe wędrówki i podziwianie niepowtarzalnych krajobrazów górskich.",
 
-	"attractions-11--title":"Tatrzański Park Narodowy",
-	"attractions-11--desc":"Obszar chroniony, oferujący szereg ścieżek dydaktycznych i turystycznych, przez które można odkrywać bogactwo flory i fauny Tatr. Park jest idealnym miejscem do obserwowania przyrody i cieszenia się czystym górskim powietrzem.",
+	"attractions-10--title": "Willa Koliba – Muzeum Stylu Zakopiańskiego",
+	"attractions-10--desc": "Pierwszy dom zbudowany w stylu zakopiańskim, zaprojektowany przez Stanisława Witkiewicza. Obecnie funkcjonuje jako muzeum, prezentujące tradycyjną architekturę i rzemiosło regionu.",
 
-	"attractions-12--title":"Sanktuarium Matki Bożej Fatimskiej na Krzeptówkach",
-	"attractions-12--desc":"To piękne sanktuarium, zbudowane jako wotum dziękczynne za ocalenie Jana Pawła II po zamachu w 1981 roku. Miejsce to jest ważnym punktem na duchowej mapie Zakopanego, odwiedzanym zarówno przez pielgrzymów, jak i turystów szukających chwili spokoju i refleksji.Każda z tych atrakcji dodatkowo wzbogaca ofertę turystyczną Zakopanego i okolic, oferując niezliczone możliwości dla miłośników gór, natury, kultury oraz historii.",
+	"attractions-11--title": "Tatrzański Park Narodowy",
+	"attractions-11--desc": "Obszar chroniony, oferujący szereg ścieżek dydaktycznych i turystycznych, przez które można odkrywać bogactwo flory i fauny Tatr. Park jest idealnym miejscem do obserwowania przyrody i cieszenia się czystym górskim powietrzem.",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	"attractions-12--title": "Sanktuarium Matki Bożej Fatimskiej na Krzeptówkach",
+	"attractions-12--desc": "To piękne sanktuarium, zbudowane jako wotum dziękczynne za ocalenie Jana Pawła II po zamachu w 1981 roku. Miejsce to jest ważnym punktem na duchowej mapie Zakopanego, odwiedzanym zarówno przez pielgrzymów, jak i turystów szukających chwili spokoju i refleksji.Każda z tych atrakcji dodatkowo wzbogaca ofertę turystyczną Zakopanego i okolic, oferując niezliczone możliwości dla miłośników gór, natury, kultury oraz historii.",
 
 	"gallery-title": "Galeria",
 	"gallery-item-1": "Apartamenty",
@@ -189,9 +198,8 @@
 
 	"cookie-bar": "Ta witryna używa plików cookie, aby zapewnić Ci najlepsze doświadczenie podczas korzystania z naszej platformy. Kontynuując przeglądanie naszej witryny, wyrażasz zgodę na korzystanie z plików cookie.",
 
-"contactForm-1":"Dziękujemy za wiadomość!",
-"comeBack":"Powrót",
-
+	"contactForm-1": "Dziękujemy za wiadomość!",
+	"comeBack": "Powrót",
 
 	"name_placeholder": "Imię:",
 	"phone_placeholder": "Telefon:",
