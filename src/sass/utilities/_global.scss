@@ -173,5 +173,23 @@ a:hover {
 
 
 
+   @media (max-width: 800px) {
+    .sm {
+      display: block !important; 
+    }
+    .lg {
+      display: none !important; 
+    }
+  }
+  
 
+  
+  @media (min-width: 801px) {
+    .sm {
+      display: none !important; 
+    }
+    .lg {
+      display: block !important;
+    }
+  }
 

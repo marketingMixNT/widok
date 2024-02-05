@@ -17,5 +17,5 @@
       @media (min-width: 1400px) { @content; }
     }
     @mixin max-devices {
-      @media (min-width: 2000px) { @content; }
+      @media (min-width: 1800px) { @content; }
     }
