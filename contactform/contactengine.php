@@ -2,9 +2,9 @@
 
 header('Content-Type: text/html; charset=utf-8');
 
-$EmailFrom = "kontakt@owcedwie.pl"; // Zmień na swój rzeczywisty adres e-mail
-$EmailTo = "hello@owcedwie.pl";
-$Subject = "Nowa wiadomość ze strony owcedwie.pl";
+$EmailFrom = "hello@widokzakopane.pl"; // Zmień na swój rzeczywisty adres e-mail
+$EmailTo = "hello@widokzakopane.pl";
+$Subject = "Nowa wiadomość ze strony widokzakopane.pl";
 $Name = Trim(stripslashes($_POST['Name']));
 $Tel = Trim(stripslashes($_POST['Tel']));
 $Email = Trim(stripslashes($_POST['Email']));
@@ -42,7 +42,7 @@ $success = mail($EmailTo, $Subject, $Body, $headers);
 
 // Redirect to success page
 if ($success) {
-  header('Location: ../dziekujemy_za_wiadomosc.php');
+  header('Location: ../dziekujemy_za_wiadomosc.html');
 } else {
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
 }
