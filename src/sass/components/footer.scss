@@ -7,6 +7,10 @@
     left: 0;
     right: 0;
     background-color: colors.$main-400;
+    padding-bottom:90px;
+    @include mixins.large-devices {
+        padding-bottom:0
+    }  
 
     &__container {
         display: flex;
