@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="pl">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PTLPKVZ8');</script>
+    <!-- End Google Tag Manager -->
 
 <head>
     <meta charset="UTF-8">
@@ -50,6 +57,10 @@
 
 <!--OWN CSS-->
 <link rel="stylesheet" href="dist/css/app.min.css">
+
+
+<!--GOOGLE-->
+<meta name="google-site-verification" content="vEGnysUS8dpG8vAPToGCVq5yRd30shGgHZD94FEGNmU" />
 </head>
 
 <body
@@ -57,7 +68,12 @@
     data-home-url="index.html">
 
 
-    <div class="hotale-mobile-header-wrap">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTLPKVZ8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div class="hotale-mobile-header-wrap">
     <div class="hotale-mobile-header hotale-header-background hotale-style-slide hotale-sticky-mobile-navigation nav-mobile" id="hotale-mobile-header" style="padding-top:0;padding-bottom:0;">
         <div class="hotale-mobile-header-container hotale-container clearfix">
             <div class="hotale-logo hotale-item-pdlr">
@@ -80,7 +96,22 @@
             <div class="hotale-mobile-menu-right">
                
                 <div class="hotale-mobile-menu" >
-                    <a class="hotale-mm-menu-button hotale-mobile-menu-button hotale-mobile-button-hamburger hamburger" href="#hotale-mobile-menu"><span></span></a>
+                    <div style="display:flex; justify-content:center;align-items:center">
+                        <a class="hotale-mm-menu-button hotale-mobile-menu-button hotale-mobile-button-hamburger hamburger" href="#hotale-mobile-menu"><span></span></a>
+                        <div class="tourmaster-currency-switcher" style="padding:0; padding-top:8px">
+                            <span class="tourmaster-head"><span style="color:white">PL/ENG</span><i class="fa fa-sort-down" style="color:white"></i></span>
+                            <div class="tourmaster-currency-switcher-inner">
+                                <div class="tourmaster-currency-switcher-content">
+                                    <ul>
+                                        <li><a href="/" onclick="changeLanguage('pl')">Polski</a></li>
+                                        <li><a href="/" onclick="changeLanguage('en')">English</a></li>
+                                       
+                                      </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="hotale-mm-menu-wrap hotale-navigation-font" id="hotale-mobile-menu" data-slide="right" >
                         
                         <ul id="menu-main-navigation" class="m-menu">
@@ -239,15 +270,15 @@
 
                 <div class="hotale-main-menu-right-wrap clearfix hotale-item-mglr hotale-navigation-top">
                     <div class="tourmaster-room-navigation-checkout-wrap">
-                        <!-- <a
+                        <a
 id="tourmaster-room-navigation-checkout-button"
 class="tourmaster-room-navigation-checkout-button btn--secondary"
-href="#"
+href="https://panel.hotres.pl/v4_step1?oid=3809&lang=pl&"
 data-checkout-label="Check Out"
-data-label="Book Now"
+data-label="Book Now" 
 >
 Zarezerwuj<span class="tourmaster-count">0</span>
-</a> -->
+</a>
 
                     </div>
                 </div>
@@ -312,10 +343,22 @@ Zarezerwuj<span class="tourmaster-count">0</span>
                                         <div class="gdlr-core-pbf-background-wrap"></div>
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
                                             <div class="gdlr-core-pbf-element">
-                                                <div class="tourmaster-room-title-item tourmaster-item-mglr tourmaster-item-pdb clearfix"
-                                                    style="padding-bottom: 35px;">
+                                                <div class="tourmaster-room-title-item tourmaster-item-mglr tourmaster-item-pdb clearfix room-title-button"
+                                                    >
                                                     <!--title-->
                                                     <h3 class="tourmaster-room-title-item-title" data-i18n="apartment-2"></h3>
+                                                    <div class="tourmaster-room-navigation-checkout-wrap">
+                                                        <a
+                                id="tourmaster-room-navigation-checkout-button"
+                                class="tourmaster-room-navigation-checkout-button btn--primary"
+                                href="https://panel.hotres.pl/v4_step1?oid=3809&lang=pl&"
+                                data-checkout-label="Check Out"
+                                data-label="Book Now" 
+                                >
+                                Zarezerwuj<span class="tourmaster-count">0</span>
+                                </a>
+                                
+                                                    </div>
 
                                                 </div>
                                             </div>
@@ -987,6 +1030,7 @@ style="margin-left: 5px; margin-right: 5px;">
                             </div>
                         </div>
                     </div>
+                    <script src="https://panel.hotres.pl/public/api/hotres_v4_chooser.js"></script> <form action="https://panel.hotres.pl/v4_step1" target="_blank" class="hotresChooser" id="hotresChooser" method="get" style="margin-bottom:100px"><input type="hidden" name="oid" id="hotresOid" value="3809" /><input type="hidden" name="lang" id="hotresLang" value="" /> <input type="hidden" name="arrival" id="hotresArrival" /><input type="hidden" name="departure" id="hotresDeparture" /><div class="hotresRangeChooser" id="hotresRangeChooser">    <div id="hotresArrivalWrap"></div>    <div id="hotresDepartureWrap"></div></div><div class="hotresAdultsChooser" id="hotresAdultsChooser"><select name="adults" id="hotresAdultsSelect"></select></div><div class="hotresSubmit"><button id="hotresButtonChooser"></button></div></form><script>window.addEventListener('load', (event) => { new hotresChooser({'maxAdults':10});});</script>
                     <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
                         id="gdlr-core-column-25">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
@@ -1185,7 +1229,7 @@ style="margin-left: 5px; margin-right: 5px;">
             <div class="footer__columns-box">
                 <h6 data-i18n="contact"></h6>
                 <a href="tel:48603925404">+48 603 925 404</a>
-                <a href="mailto:hello@widokzakopane.pl">test@test.pl</a>
+                <a href="mailto:hello@widokzakopane.pl">hello@widokzakopane.pl</a>
             </div>
         </div>
 
@@ -1202,11 +1246,36 @@ style="margin-left: 5px; margin-right: 5px;">
 
         <p data-i18n="cookie-bar"></p>
         <div class="cookie-bar__actions">
-            <a href="" target="_blank" data-i18n="find-our-more"></a>
+            <a href="/polityka_prywatnosci.html" target="_blank" data-i18n="find-our-more"></a>
             <button type="button" id="acceptBtn">OK</button>
         </div>
     </div>
-</div>
+</div>     <nav class="bottom-nav_container">
+    
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="https://panel.hotres.pl/v4_step1?oid=3809&lang=pl&" target="_blank" class="bottom-nav_item-link">
+        <img src="/dist/assets/icons/click.svg" alt="">
+        <span data-i18n="bottom-nav-1"></span></a>
+    </button>
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="/galeria.html" class="bottom-nav_item-link">
+        <img src="/dist/assets/icons/gallery.svg" alt="">
+        <span data-i18n="bottom-nav-2"></span></a>
+    </button>
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="https://maps.app.goo.gl/UjYqr1QP85v5k6819" target="_blank" class="bottom-nav_item-link">
+        <img src="/dist/assets/icons/pin.svg" alt="">
+        <span data-i18n="bottom-nav-3"></span></a>
+    </button>
+    <button type="button" aria-label="Rezerwuj" class="bottom-nav_item">
+        <a href="tel:+48603925404 " class="bottom-nav_item-link">
+        <img src="/dist/assets/icons/phone.svg" alt="">
+        <span data-i18n="bottom-nav-4"></span></a>
+    </button>
+   
+  
+
+</nav>
     
 <script type="text/javascript" src="js/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="js/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>

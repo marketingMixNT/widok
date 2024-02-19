@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="pl">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PTLPKVZ8');</script>
+    <!-- End Google Tag Manager -->
 
 <head>
     <meta charset="UTF-8">
@@ -85,10 +92,22 @@
                                         <div class="gdlr-core-pbf-background-wrap"></div>
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
                                             <div class="gdlr-core-pbf-element">
-                                                <div class="tourmaster-room-title-item tourmaster-item-mglr tourmaster-item-pdb clearfix"
-                                                    style="padding-bottom: 35px;">
+                                                <div class="tourmaster-room-title-item tourmaster-item-mglr tourmaster-item-pdb clearfix room-title-button"
+                                                    >
                                                     <!--title-->
                                                     <h3 class="tourmaster-room-title-item-title" data-i18n="apartment-2"></h3>
+                                                    <div class="tourmaster-room-navigation-checkout-wrap">
+                                                        <a
+                                id="tourmaster-room-navigation-checkout-button"
+                                class="tourmaster-room-navigation-checkout-button btn--primary"
+                                href="https://panel.hotres.pl/v4_step1?oid=3809&lang=pl&"
+                                data-checkout-label="Check Out"
+                                data-label="Book Now" 
+                                >
+                                Zarezerwuj<span class="tourmaster-count">0</span>
+                                </a>
+                                
+                                                    </div>
 
                                                 </div>
                                             </div>
@@ -459,6 +478,7 @@ style="margin-left: 5px; margin-right: 5px;">
                             </div>
                         </div>
                     </div>
+                    <script src="https://panel.hotres.pl/public/api/hotres_v4_chooser.js"></script> <form action="https://panel.hotres.pl/v4_step1" target="_blank" class="hotresChooser" id="hotresChooser" method="get" style="margin-bottom:100px"><input type="hidden" name="oid" id="hotresOid" value="3809" /><input type="hidden" name="lang" id="hotresLang" value="" /> <input type="hidden" name="arrival" id="hotresArrival" /><input type="hidden" name="departure" id="hotresDeparture" /><div class="hotresRangeChooser" id="hotresRangeChooser">    <div id="hotresArrivalWrap"></div>    <div id="hotresDepartureWrap"></div></div><div class="hotresAdultsChooser" id="hotresAdultsChooser"><select name="adults" id="hotresAdultsSelect"></select></div><div class="hotresSubmit"><button id="hotresButtonChooser"></button></div></form><script>window.addEventListener('load', (event) => { new hotresChooser({'maxAdults':10});});</script>
                     <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
                         id="gdlr-core-column-25">
                         <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"

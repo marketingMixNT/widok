@@ -9,8 +9,9 @@
 	"index-apartment1-title": "Gubałówka | Apartamenty Widok Zakopane",
 	"index-apartment2-title": "Kasprowy | Apartamenty Widok Zakopane",
 	"index-apartment3-title": "Giewont | Apartamenty Widok Zakopane",
-	"index-attractions-title": "Willa Owce Dwie - Twój wymarzony pobyt zaczyna się tutaj",
+	"index-attractions-title": "Atrakcje | Zobacz okoliczne atakcje przy Apartamentach Widok Zakopane",
 	"index-contact-title": "Kontakt – Skontaktuj się z nami | Apartamenty Widok Zakopane",
+	"index-privacy-policy-title":"Polityka Prywatności | Apartamenty Widok Zakopane",
 
 	"nav-link--1": "O nas",
 	"nav-link--2": "Apartamenty",
@@ -115,7 +116,7 @@
 "amenities-li-3-head":"Sypialnia na Antresoli - ",
 "amenities-li-3-desc":"ustronna i przytulna, z dużym łóżkiem małżeńskim (180x200 cm), które można przekształcić w dwa pojedyncze łóżka – idealne rozwiązanie zarówno dla par, jak i przyjaciół podróżujących razem.",
 "amenities-li-4-head":"Łazienki - ",
-"amenities-li-4-desc":"apartament posiadaj dwie nowoczesne i funkcjonalne łazienki, wyposażone we wszystkie niezbędne udogodnienia (wygodny prysznic, ręcznikowiec, suszarka, umywalka ze stylowym meblem).",
+"amenities-li-4-desc":"apartament posiadają dwie nowoczesne i funkcjonalne łazienki, wyposażone we wszystkie niezbędne udogodnienia (wygodny prysznic, ręcznikowiec, suszarka, umywalka ze stylowym meblem).",
 "amenities-li-4-desc_second":"apartament posiada nowoczesną i funkcjonalną łazienkę, wyposażoną we wszystkie niezbędne udogodnienia (wygodny prysznic, ręcznikowiec, suszarka, umywalka ze stylowym meblem).",
 "amenities-li-5-head":"Rozrywka i Łączność - ",
 "amenities-li-5-desc":"w apartamencie znajduje się telewizor oraz dostęp do szybkiego internetu, dzięki czemu nie przegapisz ulubionych programów i będziesz na bieżąco z najważniejszymi wydarzeniami.",
@@ -208,5 +209,14 @@
 	"phone_placeholder": "Telefon:",
 	"email_placeholder": "Email:",
 	"message_placeholder": "Wiadomość:",
-	"submit_button": "Wyślij"
+	"submit_button": "Wyślij",
+
+
+	"bottom-nav-1":"Rezerwuj",
+	"bottom-nav-2":"Galeria",
+	"bottom-nav-3":"Lokalizacja",
+	"bottom-nav-4":"Kontakt",
+
+	"find-our-more":"Dowiedz się więcej",
+	"privacy-policy":"Polityka Prywatności"
 }

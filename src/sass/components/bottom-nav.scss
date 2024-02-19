@@ -1,0 +1,63 @@
+@use '../utilities/mixins';
+
+.bottom-nav {
+	&_container {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #1c1c1c;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		z-index: 100000000;
+		@include mixins.large-devices {
+			display: none;
+		}
+	}
+	&_item {
+		border: none;
+		border-right: 1px solid white;
+		background-color: #1c1c1c;
+
+		&:first-of-type {
+			background-color: #c1986c;
+
+			& span {
+				color: black;
+			}
+			&:hover {
+				background-color: #bdbdbd;
+			}
+		}
+		&:hover {
+			background-color: #535252;
+		}
+
+		&-link {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 15px 0;
+			gap: 5px;
+		}
+		& img {
+            width: 25px;
+            @include mixins.xs-devices {
+                width: 35px;
+            }
+			
+		}
+		& span {
+			font-size: 10px;
+			text-transform: uppercase;
+			font-weight: 600;
+			color: white;
+            @include mixins.xs-devices {
+                font-size: 13px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+		}
+	}
+}

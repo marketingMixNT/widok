@@ -1,195 +1,196 @@
-@use "./utilities/colors";
-@use "./utilities/mixins";
+@use './utilities/colors';
+@use './utilities/mixins';
 
 body {
-    .gdlr-core-divider-line.gdlr-core-skin-divider {
-        border-color: colors.$main-400;
-        border-width: 3px;
-    }
+	.gdlr-core-divider-line.gdlr-core-skin-divider {
+		border-color: colors.$main-400;
+		border-width: 3px;
+	}
 }
 
-strong{
-    color:black
+strong {
+	color: black;
 }
 
 .hotale-footer-wrapper {
-    background-color: colors.$main-400 !important;
+	background-color: colors.$main-400 !important;
 }
 
 .hotale-body-wrapper {
-    background-color: colors.$bgc !important;
+	background-color: colors.$bgc !important;
 }
 
 .contact-section {
-    background-color: colors.$main-400;
+	background-color: colors.$main-400;
 }
 
 .rooms-container {
-    background-color: white;
+	background-color: white;
 }
 
-
-
 .tourmaster-price-wrap.tourmaster-with-bg {
-    background-color: colors.$main-400 !important;
+	background-color: colors.$main-400 !important;
 }
 
 .hotale-body-wrapper.hotale-with-frame,
 body.hotale-full .hotale-fixed-footer {
-    margin: 0;
+	margin: 0;
 }
 
 .btn {
-    &--primary {
-        background-color:  colors.$secondary-400 !important;
-        border-radius: 0px !important;
-        color: colors.$font-light !important;
-        &:hover {
-            background-color: colors.$secondary-200 !important;
-            color: colors.$font-light !important;
-        }
-    }
-    &--secondary {
-        border: 1px solid colors.$main-400 !important;
-        color: colors.$main-400 !important;
-    }
-    &--third {
-        border: 1px solid white !important;
-        color: white !important;
-    }
+	&--primary {
+		background-color: colors.$secondary-400 !important;
+		border-radius: 0px !important;
+		color: colors.$font-light !important;
+		&:hover {
+			background-color: colors.$secondary-200 !important;
+			color: colors.$font-light !important;
+		}
+	}
+	&--secondary {
+		border: 1px solid white !important;
+		color: white !important;
+		transition: all 0.6s;
+		&:hover {
+			color: black !important;
+			border: 1px solid black !important;
+		}
+	}
+	&--third {
+		border: 1px solid white !important;
+		color: white !important;
+	}
 }
 
 @media (max-width: 768px) {
-    .attraction-card-second-right {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .gallery-first-img {
-        display: none;
-    }
+	.attraction-card-second-right {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.gallery-first-img {
+		display: none;
+	}
 }
 
 a:hover {
-    color: colors.$main-200 !important;
+	color: colors.$main-200 !important;
 }
 
 .info-card {
-    &:first-child {
-        margin: 0; 
-    }
-    @include mixins.medium-devices {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 3em 0;
-        
-    }
-   
-    &--reverse {
-        flex-direction: row-reverse;
-    }
+	&:first-child {
+		margin: 0;
+	}
+	@include mixins.medium-devices {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 3em 0;
+	}
+
+	&--reverse {
+		flex-direction: row-reverse;
+	}
 }
 
-.other-rooms{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @include mixins.medium-devices{
-        flex-direction: row;
-    }
+.other-rooms {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	@include mixins.medium-devices {
+		flex-direction: row;
+	}
 }
 
-.white{
-    color:white !important
+.white {
+	color: white !important;
 }
 
-
-.btn--primary{
-    cursor: pointer;
-    border:none
+.btn--primary {
+	cursor: pointer;
+	border: none;
 }
-
-
-
 
 //NOWE WIDOK
 
-.text-light{
-    color:colors.$font-light !important
-
+.text-light {
+	color: colors.$font-light !important;
 }
 
-.text-action{
-    color:colors.$font-action !important
+.text-action {
+	color: colors.$font-action !important;
 }
-.border-action{
-    border-color:colors.$font-action !important
+.border-action {
+	border-color: colors.$font-action !important;
 }
-.bg-action{
-    background-color:colors.$font-action !important
-}
-
-.text-dark{
-    color:colors.$font-dark !important
+.bg-action {
+	background-color: colors.$font-action !important;
 }
 
-
-.topbar{
-    background-color: colors.$main-400 !important;
-    border-bottom-color:colors.$main-400 !important
-    }
- .nav-mobile{
-    background-color: colors.$secondary-400 !important;
-    border-bottom-color:colors.$secondary-400 !important
-    }
-
-    .hamburger:after, .hamburger:before, .hamburger span{
-        background-color: white !important;
-    }
-
-    .desktop-nav-container,
-   
-    .cta-container,
-    .testimonial-container,
-    
-    .testimonial-container {
-        background-color: colors.$secondary-400 !important;
-        
-    }
-.nav-link{
-    color:colors.$font-light
+.text-dark {
+	color: colors.$font-dark !important;
 }
-   .nav-link:hover{
-    color:black !important
-   }
 
+.topbar {
+	background-color: colors.$main-400 !important;
+	border-bottom-color: colors.$main-400 !important;
+}
+.nav-mobile {
+	background-color: colors.$secondary-400 !important;
+	border-bottom-color: colors.$secondary-400 !important;
+}
 
+.hamburger:after,
+.hamburger:before,
+.hamburger span {
+	background-color: white !important;
+}
 
-   //MAIN PAGE SECTIONS
-   .hotale-navigation-slide-bar.hotale-navigation-slide-bar-style-2.hotale-left{
-    border-color:colors.$main-400 !important
-   }
+.desktop-nav-container,
+.cta-container,
+.testimonial-container,
+.testimonial-container {
+	background-color: colors.$secondary-400 !important;
+}
+.nav-link {
+	color: colors.$font-light;
+}
+.nav-link:hover {
+	color: black !important;
+}
 
+//MAIN PAGE SECTIONS
+.hotale-navigation-slide-bar.hotale-navigation-slide-bar-style-2.hotale-left {
+	border-color: colors.$main-400 !important;
+}
 
+@media (max-width: 800px) {
+	.sm {
+		display: block !important;
+	}
+	.lg {
+		display: none !important;
+	}
+}
 
-   @media (max-width: 800px) {
-    .sm {
-      display: block !important; 
-    }
-    .lg {
-      display: none !important; 
-    }
-  }
-  
+@media (min-width: 801px) {
+	.sm {
+		display: none !important;
+	}
+	.lg {
+		display: block !important;
+	}
+}
 
-  
-  @media (min-width: 801px) {
-    .sm {
-      display: none !important; 
-    }
-    .lg {
-      display: block !important;
-    }
-  }
-
+.room-title-button {
+	padding-bottom: 35px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	justify-content: justify-between;
+	align-items: center;
+	@include mixins.medium-devices {
+		flex-direction: row;
+		gap: 0;
+	}
+}
